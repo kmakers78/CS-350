@@ -1,0 +1,94 @@
+<mxfile host="app.diagrams.net" modified="2024-06-06T02:22:58.564Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="afeN43THGsmm43fhy_Xt" version="24.4.9" type="device">
+  <diagram name="Page-1" id="PXXY554p-M7FvLPrfaTX">
+    <mxGraphModel dx="1839" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Start" style="ellipse;aspect=fixed;strokeWidth=2;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="-370" y="190" width="51" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="State1&#xa;LED OFF" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="-260" y="198.5" width="61" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="SOS Message" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="-120" y="130" width="61" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="OK Message" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="-120" y="280" width="61" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="q3pR9mQ0AhOVMh6NHu49-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-319" y="215.16" as="sourcePoint" />
+            <mxPoint x="-219" y="215.16" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q3pR9mQ0AhOVMh6NHu49-13" value="Initialized" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="q3pR9mQ0AhOVMh6NHu49-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q3pR9mQ0AhOVMh6NHu49-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-199" y="215.16" as="sourcePoint" />
+            <mxPoint x="-99" y="215.16" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q3pR9mQ0AhOVMh6NHu49-15" value="Initial Message" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="q3pR9mQ0AhOVMh6NHu49-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q3pR9mQ0AhOVMh6NHu49-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4" target="5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-189" y="225.16" as="sourcePoint" />
+            <mxPoint x="-105" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q3pR9mQ0AhOVMh6NHu49-19" value="Button 0 or 1 Pressed" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="q3pR9mQ0AhOVMh6NHu49-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q3pR9mQ0AhOVMh6NHu49-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="5" target="4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-220" y="310" as="sourcePoint" />
+            <mxPoint x="-220" y="361" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q3pR9mQ0AhOVMh6NHu49-23" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; background-color: rgb(251, 251, 251);&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22Button%200%20or%201%20Pressed%22%20style%3D%22edgeLabel%3Bresizable%3D0%3Bhtml%3D1%3B%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3B%22%20connectable%3D%220%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22-104.75%22%20y%3D%22214.9310344827585%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3&lt;/span&gt;" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="q3pR9mQ0AhOVMh6NHu49-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q3pR9mQ0AhOVMh6NHu49-25" value="Button 0 or 1 Pressed" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="-70" y="250.00103448275848" as="geometry" />
+        </mxCell>
+        <mxCell id="q3pR9mQ0AhOVMh6NHu49-26" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0.729;exitY=-0.118;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4" target="4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-80" y="120" as="sourcePoint" />
+            <mxPoint x="-30" y="70" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-30" y="120" />
+              <mxPoint x="-80" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q3pR9mQ0AhOVMh6NHu49-27" value="Infinite until button press" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="q3pR9mQ0AhOVMh6NHu49-26">
+          <mxGeometry x="0.0451" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q3pR9mQ0AhOVMh6NHu49-30" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.842;entryY=1.028;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5" target="5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-109" y="390" as="sourcePoint" />
+            <mxPoint x="-59" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-59" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q3pR9mQ0AhOVMh6NHu49-31" value="Infinite until button press" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="q3pR9mQ0AhOVMh6NHu49-30">
+          <mxGeometry x="-0.5062" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
